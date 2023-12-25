@@ -10,6 +10,8 @@ import {
   Transforms,
 } from "slate";
 import type { Descendant, NodeEntry, Operation } from "slate";
+import { nanoid } from "nanoid";
+
 import type { CustomElement } from "~/components/slate.types";
 
 export const meta: MetaFunction = () => {
